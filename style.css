@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1;
+}
+
+header {
+  font-size: 40px;
+  font-weight: bolder;
+  background-color: rgb(58, 58, 58);
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.container {
+  width: 100%;
+  padding-top: 20px;
+  clear: both;
+  float: right;
+}
+#sideNav {
+  height: 100%;
+  position: fixed;
+  top: 90px;
+  left: 0;
+  background-color: rgb(247, 245, 245);
+}
+
+h1 {
+  font-size: 20px;
+  text-align: left;
+  padding: 20px 0px 10px 5px;
+}
+
+.fas {
+  color: rgb(54, 16, 221);
+}
+
+h2 {
+  font-size: 30px;
+  text-align: left;
+  font-weight: bolder;
+  padding: 20px;
+}
+
+p {
+  color: black;
+}
+
+#cityButtons {
+  color: grey;
+  font-size: 18px;
+  line-height: 24px;
+  padding-left: 20px;
+  max-width: 100%;
+}
+
+#fiveDayForecast {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+}
+
+/*--Media Queries */
+
+@media screen and (max-width: 576px) {
+  .navbar-brand {
+    text-align: center;
+    padding: 0 auto;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    text-align: center;
+    padding: 0 auto;
+    width: 100%;
+  }
+}

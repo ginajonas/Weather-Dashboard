@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="row">
+        <div class="col-md-12" id="header">Weather Dashboard</div>
+    </header>
+
+    <aside class="row">
+        <div class="col-md-3 form-group" id="sideNav">
+            <h1>Search for a City:</h1>
+            <div id="cityInput" class="input-group md-form form-sm form-1 pl-0">
+                <input id="citySearchInput" class="form-control my-0 py-1" type="text" placeholder="Search"
+                    aria-label="Search">
+                <div class="input-group-prepend">
+                    <button class="input-group-text" id="citySearchButton"><i class="fas fa-search-location"
+                            aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <!-- Need to Prepends all searched cities -->
+            <div id="cityButtons">
+                <ul id="citiesList"></ul>
+            </div>
+        </div>
+    </aside>
+
+    <main class="container col-md-9">
+
+        <!-- Row with Daily Weather -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div id="dailyWeather" class="body">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 ">
+                <h2>5 Day Forecast</h2>
+            </div>
+        </div>
+
+        <div class="row" id="fiveDayForecast"></div>
+
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
