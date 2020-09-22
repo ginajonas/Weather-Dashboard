@@ -13,3 +13,6 @@ When I click on a city in the search history, then I am again presented with cur
 
 When I open the weather dashboard, then I am presented with the last searched city forecast.
 
+![weather-dashboard](https://user-images.githubusercontent.com/68718445/93943142-e52ccd00-fcff-11ea-9781-5a3c559b05b6.png)
+
+
